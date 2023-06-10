@@ -4,6 +4,7 @@ import { AppBar, Toolbar, Box, styled, Typography } from "@mui/material";
 // import search component
 
 import Search from "./Search";
+import CustomButtons from "./CustomButtons";
 
 const StyledHeader = styled(AppBar)`
   background: #2874f0;
@@ -25,6 +26,10 @@ const PlusImage = styled("img")({
   height: 10,
   marginLeft: 4,
 });
+
+const CustomButtonWrapper = styled(Box)`
+  margin: 0 5% 0 auto;
+`;
 const Header = () => {
   // Adding logo - I may remove it
   const logoURL = "https://www.flipkart.com/";
@@ -46,6 +51,9 @@ const Header = () => {
             </Box>
           </Component>
           <Search />
+          <CustomButtonWrapper>
+            <CustomButtons />
+          </CustomButtonWrapper>
         </Toolbar>
       </StyledHeader>
     </div>
