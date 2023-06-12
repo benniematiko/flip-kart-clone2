@@ -36,7 +36,7 @@ const CustomButtons = () => {
   return (
     <Wrapper>
       <LoginButton variant="contained">Login</LoginButton>
-      <Typography style={{ marginTop: 3, width: 135 }}>
+      <Typography style={{ marginTop: 3, width: 145 }}>
         Become a Vendor
       </Typography>
       <Typography style={{ marginTop: 3, width: 135 }}>More</Typography>

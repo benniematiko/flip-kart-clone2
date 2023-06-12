@@ -7,7 +7,8 @@ import Search from "./Search";
 import CustomButtons from "./CustomButtons";
 
 const StyledHeader = styled(AppBar)`
-  background: #2874f0;
+  /*background: #2874f0;*/
+  background: #db890d;
   height: 55px;
 `;
 
